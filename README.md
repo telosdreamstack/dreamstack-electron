@@ -84,17 +84,9 @@ https://blockmatic.github.io/telos-dreamstack/
 
 Read the [contributing guidelines](https://developers.blockmatic.io) for details.
 
-## License
-
-## License
-
-MIT © Blockmatic
-
----
-
 ## Blockmatic
 
-Blockmatic is building robust ecosystem of people and tools for development of decentralized applications (dApps) and fintech solutions.
+Blockmatic is building robust ecosystem of people and tools for development of decentralized applications.
 
 [blockmatic.io](https://blockmatic.io)
 

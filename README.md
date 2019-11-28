@@ -74,11 +74,9 @@ https://t.me/blockmatic
 
 ## TELOS DreamStack
 
-This repository is part of the TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development while following best practices for security, performance and maintainability of your application.
+This repository is part of the TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development following best practices for security, performance and maintainability of your application.
 
-Blockmatic code style convention aims to maximize reusability and facilitate collaboration. We have chosen the stack carefully so that it allows us to write robust and performant ReactJS and React Native applications with more concise and readable code.
-
-https://blockmatic.github.io/telos-dreamstack/
+The code style convention aims to maximize reusability and facilitate collaboration. We have chosen the stack carefully so that it allows us to write robust and performant applications with more concise and readable code.
 
 ## Contributing
 
@@ -89,6 +87,7 @@ Read the [contributing guidelines](https://developers.blockmatic.io) for details
 Blockmatic is building robust ecosystem of people and tools for development of decentralized applications.
 
 [blockmatic.io](https://blockmatic.io)
+
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 

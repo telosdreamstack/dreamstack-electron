@@ -19,15 +19,15 @@
 
 Decktop cross platform (MAC, Linux, Win) dApp starter with TypeScript, Hooks, Theme UI, Wallet and i18n support.
 
-## Electron
-
-Electron, also called Electron JS, is a software development framework for building native applications (applications that run natively on Windows, macOS, and Linux) using web technologies, such as JavaScript, HTML, and CSS.
-
 ## TELOS
 
 Best in class C++ EOSIO protocol technology providing fast, scalable and eco-freindly blockchain augmented by a growing library of Telos services and innovations. Free accounts, work proposals, dapp grants, decentralized exchange, dstor, bancor protocol, telos community and foundation.
 
 [Learn more](https://docs.telosdreamstack.io/smart-contracts/telos-blockchain)
+
+## Electron
+
+Electron, also called Electron JS, is a software development framework for building native applications (applications that run natively on Windows, macOS, and Linux) using web technologies, such as JavaScript, HTML, and CSS.
 
 ## Disclaimer
 

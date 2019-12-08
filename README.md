@@ -27,10 +27,12 @@ Electron, also called Electron JS, is a software development framework for build
 
 Best in class C++ EOSIO protocol technology providing fast, scalable and eco-freindly blockchain augmented by a growing library of Telos services and innovations. Free accounts, work proposals, dapp grants, decentralized exchange, dstor, bancor protocol, telos community and foundation.
 
+[Learn more](https://docs.telosdreamstack.io/smart-contracts/telos-blockchain)
+
 ## Disclaimer
 
 This is a work in progress. Feel free to reach us out on telegram for clarifications.
-https://t.me/blockmatic
+https://t.me/telosdreamstack
 
 ## Features
 

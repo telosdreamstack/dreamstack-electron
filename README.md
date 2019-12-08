@@ -10,7 +10,7 @@
 	<a href="https://twitter.com/intent/follow?screen_name=telosdreamstack">
 		<img src="https://img.shields.io/twitter/follow/telosdreamstack.svg?style=social&logo=twitter" alt="Follow on Twitter" />
 	</a>
-	<a href="https://t.me/blockmatic">
+	<a href="https://t.me/telosdreamstack">
 		<img src="https://img.shields.io/badge/-Chat%20on%20Telegram-blue?style=social&logo=telegram" alt="Chat on Telegram">
 	</a>
 </p>

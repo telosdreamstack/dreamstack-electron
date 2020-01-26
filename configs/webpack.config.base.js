@@ -14,11 +14,16 @@ export default {
       {
         test: /\.[jt]sx?$/,
         exclude: /node_modules/,
+        include: /src/,
         use: [
           {
             loader: 'babel-loader',
             options: {
               cacheDirectory: true,
+              plugins: [
+                // plugin-proposal-decorators is only needed if you're using experimental decorators in TypeScript
+                'react-hot-loader/babel',
+              ],
             },
           },
           'ts-loader',
@@ -37,7 +42,11 @@ export default {
    * Determine the array of extensions that should be used to resolve modules.
    */
   resolve: {
-    extensions: ['.js', '.ts', '.tsx', '.json'],
+    modules: ['node_modules'],
+    alias: {
+      'react-dom': '@hot-loader/react-dom',
+    },
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
   },
 
   plugins: [

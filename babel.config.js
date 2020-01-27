@@ -20,6 +20,7 @@ module.exports = api => {
 
   return {
     presets: [
+      require('@babel/preset-typescript'),
       [
         require('@babel/preset-env'),
         {
@@ -27,10 +28,22 @@ module.exports = api => {
           useBuiltIns: 'usage',
         },
       ],
-      require('@babel/preset-typescript'),
       [require('@babel/preset-react'), { development }],
     ],
     plugins: [
+      // resolvers
+      [
+        require.resolve('babel-plugin-module-resolver'),
+        {
+          root: ['.'],
+          alias: {
+            'components': './src/components',
+            'hooks': './src/hooks',
+            'routes': './src/routes',
+            'theme': './src/theme',
+          },
+        },
+      ],
       // Stage 0
       require('@babel/plugin-proposal-function-bind'),
 

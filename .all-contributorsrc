@@ -1,0 +1,37 @@
+{
+  "projectName": "dreamstack-electron",
+  "projectOwner": "telosdreamstack",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "gaboesquivel",
+      "name": "Gabo Esquivel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/391270?v=4",
+      "profile": "https://gaboesquivel.com",
+      "contributions": [
+        "ideas",
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "rfreites",
+      "name": "Ronny",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16639855?v=4",
+      "profile": "https://rfreites.now.sh/",
+      "contributions": [
+        "ideas",
+        "code",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

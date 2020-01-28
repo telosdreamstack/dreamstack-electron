@@ -14,7 +14,7 @@
         // Dynamically insert the DLL script in development env in the
         // renderer process
         if (process.env.NODE_ENV === 'development') {
-          devScripts.push('../dll/renderer.dev.dll.js');
+          scripts.push('../dll/renderer.dev.dll.js');
         }
 
         // Dynamically insert the bundled app script in the renderer process
@@ -28,16 +28,13 @@
         // Injecting CSP
         const meta = document.createElement('meta');
         meta.httpEquiv = "Content-Security-Policy";
-        meta.content = `script-src 'self' 'unsafe-inline' 'unsafe-eval' ${scripts.join(' ')}; worker-src 'self' blob: ; base-uri 'self';`;
+        meta.content = `script-src 'self' 'unsafe-inline' 'unsafe-eval' http://localhost:${port}; worker-src 'self' blob: ; base-uri 'self';`;
         document.getElementsByTagName('head')[0].appendChild(meta);
 
         document.write(
-          [
-            ...scripts,
-            ...devScripts,
-          ]
-            .map(script => `<script defer src="${script}"><\/script>`)
-            .join('')
+          scripts
+          .map(script => `<script defer src="${script}"><\/script>`)
+          .join('')
         );
       }
     </script>

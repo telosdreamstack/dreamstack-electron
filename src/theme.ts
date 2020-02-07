@@ -1,8 +1,11 @@
-export default {
+// example base theme from @theme-ui/presets
+export const theme = {
+  breakpoints: ['40em', '52em', '64em'],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
-    body: 'Georgia',
-    heading: 'Open Sans',
+    body: '"Gothic A1" , Roboto, "Helvetica Neue", sans-serif',
+    heading: 'Lato',
+    subheading: 'Poppins',
     monospace: 'Menlo, monospace',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
@@ -16,12 +19,18 @@ export default {
     heading: 1.125,
   },
   colors: {
-    text: '#404041',
-    background: '#fff',
-    primary: '#6c2d8d',
-    secondary: '#30c',
-    muted: '#f6f6f6',
-    heading: '#6c2d8d',
+    text: '#5D5D5D',
+    background: '#FFFFFF',
+    primary: '#7E479B',
+    secondary: '#4E179B',
+    muted: '#F7F8FC',
+  },
+  text: {
+    heading: {
+      fontFamily: 'heading',
+      lineHeight: 'heading',
+      fontWeight: 'heading',
+    },
   },
   styles: {
     root: {
@@ -29,58 +38,36 @@ export default {
       lineHeight: 'body',
       fontWeight: 'body',
     },
+
     h1: {
-      color: 'heading',
-      fontFamily: 'heading',
-      lineHeight: 'heading',
-      fontWeight: 'heading',
+      variant: 'text.heading',
       fontSize: 5,
+      textAlign: 'center',
     },
     h2: {
-      color: 'text',
-      fontFamily: 'heading',
-      lineHeight: 'heading',
-      fontWeight: 'heading',
+      variant: 'text.heading',
       fontSize: 4,
     },
     h3: {
-      color: 'text',
-      fontFamily: 'heading',
-      lineHeight: 'heading',
-      fontWeight: 'heading',
+      variant: 'text.subheading',
       fontSize: 3,
+      fontWeight: 300,
     },
     h4: {
-      color: 'text',
-      fontFamily: 'heading',
-      lineHeight: 'heading',
-      fontWeight: 'heading',
+      variant: 'text.heading',
       fontSize: 2,
     },
     h5: {
-      color: 'text',
-      fontFamily: 'heading',
-      lineHeight: 'heading',
-      fontWeight: 'heading',
+      variant: 'text.heading',
       fontSize: 1,
     },
     h6: {
-      color: 'text',
-      fontFamily: 'heading',
-      lineHeight: 'heading',
-      fontWeight: 'heading',
+      variant: 'text.heading',
       fontSize: 0,
     },
-    p: {
-      color: 'text',
-      fontFamily: 'body',
-      fontWeight: 'body',
-      lineHeight: 'body',
-    },
-    a: {
-      color: 'primary',
-    },
     pre: {
+      backgroundColor: 'muted',
+      color: 'secondary',
       fontFamily: 'monospace',
       overflowX: 'auto',
       code: {
@@ -104,8 +91,27 @@ export default {
       textAlign: 'left',
       borderBottomStyle: 'solid',
     },
-    img: {
-      maxWidth: '100%',
+  },
+  images: {
+    quarter: {
+      display: 'block',
+      border: 0,
+      padding: 0,
+      maxWidth: '25%',
+      margin: '0 auto',
+    },
+  },
+  buttons: {
+    primary: {
+      color: 'background',
+      bg: 'primary',
+      '&:hover': {
+        bg: 'text',
+      },
+    },
+    secondary: {
+      color: 'background',
+      bg: 'secondary',
     },
   },
 }

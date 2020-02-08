@@ -37,10 +37,17 @@ module.exports = api => {
         {
           root: ['.'],
           alias: {
+            'assets': './src/assets',
             'components': './src/components',
+            'config': './src/config',
             'hooks': './src/hooks',
+            'library': './src/library',
             'routes': './src/routes',
+            'translations': './src/translations',
+            'custom': './src/custom',
+            'declarations': './src/declarations',
             'theme': './src/theme',
+            'types': './src/types',
           },
         },
       ],

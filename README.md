@@ -16,7 +16,7 @@
 
 # TELOS Electron dApp Starter
 
-Decktop cross platform (MAC, Linux, Win) dApp starter with TypeScript, Hooks, Theme UI, Wallet and i18n support.
+Desktop cross platform (MAC, Linux, Win) dApp starter with TypeScript, Hooks, Theme UI, Wallet and i18n support.
 
 ## TELOS
 
@@ -66,13 +66,8 @@ https://t.me/telosdreamstack
 
 This repository is part of the TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development following best practices for security, performance and maintainability of your application.
 
-The code style convention aims to maximize reusability and facilitate collaboration. We have chosen the stack carefully so that it allows us to write robust and performant applications with more concise and readable code.
+https://telosdreamstack.io
 
-## Contributing
-
-Read the [contributing guidelines](https://developers.blockmatic.io) for details.
-
-<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
 ## Contributors ✨
 
@@ -90,6 +85,18 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Contributing
+
+Read the [contributing guidelines](https://developers.blockmatic.io) for details.
+
+<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
+
+## Important
+
+See [LICENSE](./LICENSE) for copyright and license terms.
+
+All repositories and other materials are provided subject to the terms of this [IMPORTANT](./IMPORTANT.md) notice and you must familiarize yourself with its terms. The notice contains important information, limitations and restrictions relating to our software, publications, trademarks, third-party resources, and forward-looking statements. By accessing any of our repositories and other materials, you accept and agree to the terms of the notice.
 
 ## Blockmatic
 
